@@ -19,10 +19,10 @@ class Match
            # puts "player #{@current_player.id} has life: #{@current_player.lives}"
           @current_player.reduce_life
           # puts "player #{@current_player.id} has life left: #{@current_player.lives}"
-          @turn += 1
+        end
+        @turn += 1
           @current_player = @turn % 2 == 0 ? @players[1] : @players[0]
           puts "P1: #{@players[0].lives}/3, P2: #{@players[1].lives}/3"
-        end
 
 
     end

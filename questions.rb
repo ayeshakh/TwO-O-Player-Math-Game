@@ -25,7 +25,6 @@ class Question
     else
       puts "Player #{id}: Please user_input a number"
     end
-
   end
 
   def print_question(id)
